@@ -22,5 +22,5 @@ This script does not need to run constantly. Currently, it's set to run once an 
 Add the line
 > 0 * * * *  ~/scripts/stripDatesAndEvents.sh
 
-
+Visit crontab.guru for guidance on running the script at different times using crontab.
 
