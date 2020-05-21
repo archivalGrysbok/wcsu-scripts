@@ -55,3 +55,8 @@ Mon 18 May 2020 11:50:10 AM EDT /home/arclight/arclight/data/ead/ctdbn/.goutputs
 Mon 18 May 2020 11:50:11 AM EDT /home/arclight/arclight/data/ead/ctdbn/.goutputstream-YPLAL0 Updated
 Mon 18 May 2020 11:50:11 AM EDT /home/arclight/arclight/data/ead/ctdbn/warner.xml Created
 Mon 18 May 2020 11:50:11 AM EDT /home/arclight/arclight/data/ead/ctdbn/warner.xml Updated
+Thu 21 May 2020 10:46:04 AM EDT /var/www/html/arclight/data/ead/ctb/.goutputstream-RR74K0 Created
+Thu 21 May 2020 10:46:04 AM EDT /var/www/html/arclight/data/ead/ctb/bhcmss005.xml Updated
+Thu 21 May 2020 10:46:05 AM EDT /var/www/html/arclight/data/ead/ctb/.goutputstream-RR74K0 Updated
+Thu 21 May 2020 10:46:05 AM EDT /var/www/html/arclight/data/ead/ctb/bhcmss005.xml Created
+Thu 21 May 2020 10:46:05 AM EDT /var/www/html/arclight/data/ead/ctb/bhcmss005.xml Updated
