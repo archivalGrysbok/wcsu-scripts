@@ -1,4 +1,5 @@
 #! /usr/bin/python
+# heavily modified from https://github.com/wcaleb/omekadd . 
 
 from omekaclient import OmekaClient
 import csv
