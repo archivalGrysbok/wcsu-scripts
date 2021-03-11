@@ -24,3 +24,16 @@ Add the line
 
 Visit crontab.guru for guidance on running the script at different times using crontab.
 
+## /omeka2archivesspace/
+Two scripts to copy digital objects from Omeka Classic to Archivesspace, via CSV.
+
+### omekacsv.py
+Exports items from Omeka S that have been modified in the last day, into a CSV file. Make sure the 'endpoint' variable points to the correct instance of Omeka.
+
+### grabFromCSV.py
+Imports digital objects from CSV into Archivesspace. Note: these digital objects aren't attached to any components, so you'll have to do that manually.
+
+### Suggested crontab 
+Runs once a day. Note that one script runs in python 2, the other in python 3.
+> 0 12   * python /home/archivesspace/omekacsv.py; python3 /home/archivesspace/grabFromCSV.py 
+
