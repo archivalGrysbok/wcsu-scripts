@@ -37,3 +37,8 @@ Imports digital objects from CSV into Archivesspace. Note: these digital objects
 Runs once a day. Note that one script runs in python 2, the other in python 3.
 > 0 12   * python /home/archivesspace/omekacsv.py; python3 /home/archivesspace/grabFromCSV.py 
 
+## /archivesspaceUpdate/
+Set of scripts to automate the updating of archviesspace. To use:
+1. update config.sh to reflect latest versions
+2. run install_new_version.sh
+3. run start_new_release.sh
