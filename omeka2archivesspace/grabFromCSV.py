@@ -16,8 +16,8 @@ import asnake.logging as logging
 print ("\tConnecting to ArchivesSpace")
 
 client = ASnakeClient(baseurl="http://localhost:8092",
-                      username="admin",
-                      password="***REMOVED***")
+                      username="xxxx",
+                      password="xxxxxxxx")
 client.authorize()
 
 logging.setup_logging(stream=sys.stdout, level='INFO')
