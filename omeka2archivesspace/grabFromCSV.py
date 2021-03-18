@@ -32,7 +32,9 @@ with open('items_output.csv', mode='r') as csv_file:
   
         title=str(row['Title'])
         identifier=str(row['Identifier'])
-        url=str(row['url'])
+        urlRaw=str(row['url']
+# Have to clean the URL        
+        url=urlRaw.replace("/api/items","/items/show")
 #        print(title+identifier+url)
 
 #        file_version = {
